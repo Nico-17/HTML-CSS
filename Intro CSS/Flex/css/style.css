@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principale{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+    background: grey;
+    align-items: center;
+}
+.bloc{
+    width: 200px;
+    height: 200px;
+}
+.bloc:first-child{
+    background: red;
+    flex: 1;
+}
+.bloc:nth-child(2){
+    background: green;
+}
+.bloc:nth-child(3){
+    background: yellow;
+}
+.bloc:last-child{
+    background: blue;
+}

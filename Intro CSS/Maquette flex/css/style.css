@@ -1,0 +1,392 @@
+/*COULEUR LOGO :feab00 check
+COULEUR LIENS ONGLET: 648bd8 check
+COULEUR LIENS ACTIF : ffffff check
+COULEUR FOND ONGLET : f9f9f9 check
+COULEUR TITRE CADRE : b9b7b7 check
+COULEUR TEXTE CADRE : ffffff check
+COULEUR BORDURES + HR + ONGLET ACTIF "TRAITGRIS" / dddddd
+COULEUR HR TRAITBLEU : 284967 check
+COULEUR H2 + H4 : 5a5a5a (POUR LES 3PREMIERES LETTRES) + ffa729 (POUR LE RESTES)
+COULEUR H3 : 758c9f
+COULEUR PARAGRAPHE H3 : 5a5a5a
+*/
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    width: 100%;
+    padding: 8px;
+}
+.bloc{
+    width: 75%;
+    margin-right: 20px;
+}
+.sidebar{
+    width: 25%;
+}
+.onglet{
+    margin-left: 5px;
+    margin-top: 30px;
+}
+.contenu{
+    display: flex;
+    margin-left: 15px;
+}
+.contenu img{
+    margin-bottom: 30px;      
+}
+.nav{
+    display: flex;
+    
+}
+.nav a{
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 1px;
+    background: #f9f9f9;
+    color: #648bd8;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.cadre{
+    display: flex;
+    border: 2px solid #dddddd;
+    padding-bottom: 100px;
+    margin-bottom: 40px;
+    text-align: start;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+    width: 95%;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+}
+.membre{
+    display: flex;
+}
+.traitbleu{
+    width: 35px;
+    height: 4px;
+    color: #284967;
+    background: #284967;
+    margin-top: 12px;
+}
+.traitgris {
+    margin-bottom: 20px;
+    color: #b6b6b6;
+}
+.membre hr{
+    margin: 10px 0;
+}
+h3{
+    color: #758c9f;
+}
+i{
+    color: #feab00;
+}
+#active{
+    color: #000000 !important;
+    border-left: 2px solid #b6b6b6;
+    border-right: 2px solid #b6b6b6;
+    border-top: 2px solid #b6b6b6;
+
+}
+.titre-cadre{
+    color: #b9b7b7;
+    width: 100%;
+    padding: 40px 20px;
+    margin-left: 20px;
+    font-size: 1.2em;
+    font-family: 'Nova Mono', monospace;
+}
+.presentation{
+    width: 100%;
+}
+.first {
+    margin-right: 90px;
+    margin-left: 20px;
+}
+.second{
+    margin-left: 20px;
+}
+.premier-titre{
+    margin-left: 20px;
+}
+.trait-aside{
+    color: #b6b6b6;
+    margin: 20px 0;
+}
+.sidebar ul a{
+    color: #000000;
+
+}
+.sidebar ul li{
+    padding: 5px 0;
+    margin-left: 20px;
+}
+.sidebar ul i{
+    padding-right: 5px;
+}
+.sidebar ul{
+    margin-bottom: 25px;
+}
+.jaune{
+    color: #5a5a5a
+}
+h2, h4{
+    color: #ffa729;
+}
+.img-sidebar{
+    margin-bottom: 20px;
+    margin-left: 75px;
+}
+.dev h4{
+    margin-bottom: 20px;
+}
+.dev{
+    margin-left: 10px;
+}
+.btn{
+    background: #f9f9f9;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5%;
+    padding: 2px 2px;
+    margin-left: 130px;
+}
+.btn:hover{
+    background: #000000;
+    color: #f9f9f9;
+}
+.art p {
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.art .traitgris{
+    width: 330px;
+}
+p, .nav a{
+    font-family: sans-serif;
+}
+p{
+    line-height: 1.5em;
+    color: #3b3838;
+}
+h1,h2,h3,h4{
+    font-family: 'Dancing Script', serif;
+}
+h2{
+    font-size: 1.4em;
+}
+*/
+/******CSS PREFIXER******/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.main{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 8px;
+}
+.bloc{
+    width: 75%;
+    margin-right: 20px;
+}
+.sidebar{
+    width: 25%;
+}
+.onglet{
+    margin-left: 5px;
+    margin-top: 30px;
+}
+.contenu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 15px;
+}
+.contenu img{
+    margin-bottom: 30px;      
+}
+.nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+.nav a{
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 1px;
+    background: #f9f9f9;
+    color: #648bd8;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.cadre{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 2px solid #dddddd;
+    padding-bottom: 100px;
+    margin-bottom: 40px;
+    text-align: start;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+    width: 95%;
+}
+.team{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.membre{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.traitbleu{
+    width: 35px;
+    height: 4px;
+    color: #284967;
+    background: #284967;
+    position: absolute;
+}
+.second{
+    left: 0;
+}
+.traitgris {
+    margin-bottom: 20px;
+    color: #b6b6b6;
+}
+.membre hr{
+    margin: 10px 0;
+}
+h3{
+    color: #758c9f;
+}
+i{
+    color: #feab00;
+}
+#active{
+    color: #000000 !important;
+    border-left: 2px solid #b6b6b6;
+    border-right: 2px solid #b6b6b6;
+    border-top: 2px solid #b6b6b6;
+
+}
+.titre-cadre{
+    color: #b9b7b7;
+    width: 100%;
+    padding: 40px 20px;
+    margin-left: 20px;
+    font-size: 1.2em;
+    font-family: 'Nova Mono', monospace;
+}
+.presentation{
+    width: 100%;
+}
+.first {
+    margin-right: 90px;
+    margin-left: 20px;
+}
+.second{
+    margin-left: 20px;
+}
+.premier-titre{
+    margin-left: 20px;
+}
+.trait-aside{
+    color: #b6b6b6;
+    margin: 20px 0;
+}
+.sidebar ul a{
+    color: #000000;
+
+}
+.sidebar ul li{
+    padding: 5px 0;
+    margin-left: 20px;
+}
+.sidebar ul i{
+    padding-right: 5px;
+}
+.sidebar ul{
+    margin-bottom: 25px;
+}
+.jaune{
+    color: #5a5a5a
+}
+h2, h4{
+    color: #ffa729;
+}
+.img-sidebar{
+    margin-bottom: 20px;
+    margin-left: 75px;
+}
+.dev h4{
+    margin-bottom: 20px;
+}
+.dev{
+    margin-left: 10px;
+}
+.btn{
+    background: #f9f9f9;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5%;
+    padding: 2px 2px;
+    margin-left: 130px;
+}
+.btn:hover{
+    background: #000000;
+    color: #f9f9f9;
+}
+.art p {
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.art .traitgris{
+    width: 330px;
+}
+p, .nav a{
+    font-family: sans-serif;
+}
+p{
+    line-height: 1.5em;
+    color: #3b3838;
+}
+h1,h2,h3,h4{
+    font-family: 'Dancing Script', serif;
+}
+h2{
+    font-size: 1.4em;
+}

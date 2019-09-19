@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Base des formulaires de contact</title>
+    <link rel="stylesheet" href="css/stylecontact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main">
+        <h1>Nous contactez</h1>
+        <form class="formulaire" action="traitement.php" method="POST">
+            <div class="identiter">
+            <p>
+            <label for="prenom">Indiquez votre prénom : </label>
+            <input type="text" name="prenom" id="prenom" placeholder="Prénom" maxlength="25" required>
+            </p>
+
+            <p>
+            <label for="nom">Indiquez votre nom : </label>
+            <input type="text" name="nom" id="nom" placeholder="Nom" maxlength="25" required>
+            </p>
+            <p>
+                <label for="motdepasse">Indiquez votre mot de passe : </label>
+                <input type="password" name="motdepasse" id="motdepasse" placeholder="Mot de passe" maxlength="20" required>
+            </p>
+            <p>
+                <label for="tel">Indiquez votre numéro de téléphone : </label>
+                <input type="tel" name="tel" id="tel" placeholder="Téléphone" maxlength="10" required>
+            </p>
+            <p>
+                <label for="age">Indiquez votre âge : </label>
+                <input type="number" name="age" id="age" placeholder="Age" required >
+            </p>
+            <p>
+                <label for="couleur">Indiquez une couleur : </label>
+                <input type="color" name="couleur" id="couleur">
+            </p>
+            <p>
+                <label for="date">Indiquez votre date de naissance : </label>
+                <input type="date" name="date" id="date" required>
+            </p>
+            <p>
+                Cochez les formations que vous voulez suivre :<br>
+                <input type="checkbox" name="wordpress" id="wordpress"><label for="wordpress">Wordpress</label><br>
+                <input type="checkbox" name="html" id="html"><label for="html">HTML</label><br>
+                <input type="checkbox" name="css" id="css"><label for="css">CSS</label><br>
+            </p>
+            <p>
+                Choisir le niveau : <br>
+                <input type="radio" name="niveau" id="debutant"><label for="debutant">Débutant</label><br>
+                <input type="radio" name="niveau" id="intermediaire"><label for="intermediaire">Intermédiaire</label><br>
+                <input type="radio" name="niveau" id="expert"><label for="expert">Expert</label><br>
+            </p>   
+            </div>
+            <fieldset class=coordonnees>
+                <legend>Vos coordonnées</legend>
+                <p>
+                    <label for="ville">Dans quelle ville habitez vous ? </label>
+                    <select name="ville" id="ville">
+                        <option value="larochelle">La Rochelle</option>
+                        <option value="niort" selected>Niort</option>
+                        <option value="poitiers">Poitiers</option>
+                    </select>
+                    <label for="rue">Votre rue : </label>
+                    <input type="text" name="rue" id="rue">
+                </p>
+                <p>
+                    <label for="pays">Votre pays : </label>
+                    <input type="text" name="pays" id="pays">
+                </p>
+            </fieldset>
+            <section class="bouton">
+            <input type="reset" value="Effacer">
+            <input  type="submit" value="Envoyer">
+            </section>
+
+        </form>
+    </section>
+    <footer>
+        <p>Copiright</p>
+    </footer>
+</body>

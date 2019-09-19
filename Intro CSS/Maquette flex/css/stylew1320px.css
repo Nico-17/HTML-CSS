@@ -1,0 +1,13 @@
+@media screen and (max-width:1320px){
+    .contenu{
+        flex-direction: column;
+        margin-left: 150px;
+        margin-right: 50px;
+    }
+    .art img{
+        margin-top: 30px;
+    }
+    .art .traitgris{
+        width: 100%;
+    }
+}

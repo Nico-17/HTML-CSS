@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+nav{
+    background: red;
+}
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+input[type=text],input[type=tel]{
+    background: red;
+}
+.main{
+    width: 100%;
+}
+.formulaire{
+    display: flex;
+    flex-wrap: wrap;
+}
+.coordonnees{
+    width: 50%;
+}
+.identiter{
+    width: 45%;
+}
+.bouton{
+    width: 100%;
+}
